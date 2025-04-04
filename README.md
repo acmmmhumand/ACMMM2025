@@ -10,13 +10,7 @@ The gallery of paper "MultiGO: Towards Multi-Level Geometry Learning for Monocul
 
 This paper investigates the research task of reconstructing the 3D clothed human body from a monocular image. Due to the inherent ambiguity of single-view input, existing approaches leverage pre-trained SMPL(-X) estimation models or generative models to provide auxiliary information for human reconstruction. However, these methods capture only the general human body geometry and overlook specific geometric details, leading to inaccurate skeleton reconstruction, incorrect joint positions, and unclear cloth wrinkles. In response to these issues, we propose a multi-level geometry learning framework. Technically, we design three key components: skeleton-level enhancement, joint-level augmentation, and wrinkle-level refinement modules. Specifically, we effectively integrate the projected 3D Fourier features into a Gaussian reconstruction model, introduce perturbations to improve joint depth estimation during training, and refine the human coarse wrinkles by resembling the de-noising process of diffusion model. Extensive quantitative and qualitative experiments on two out-of-distribution test sets show the superior performance of our approach compared to state-of-the-art (SOTA) methods. 
 
-# Examples of Human Avatar
-<center>
-<img src="asset/Ours/Ours_ori_custom_049.glb.gif" width="230px"><img src="asset/Ours/Ours_ori_custom_026.glb.gif" width="230px"><img src="asset/Ours/Ours_ori_thuman_003.glb.gif" width="230px"><img src="asset/Ours/Ours_ori_thuman_055.glb.gif" width="230px">
 
-
-<img src="asset/Ours/Ours_refined_custom_049.obj.gif" width="230px"><img src="asset/Ours/Ours_refined_custom_026.obj.gif" width="230px"><img src="asset/Ours/Ours_refined_thuman_003.obj.gif" width="230px"><img src="asset/Ours/Ours_refined_thuman_055.obj.gif" width="230px">
-</center>
 
 # Compared with SOTA Methods
 ## Comparisons on Textured Human Avatars
@@ -277,6 +271,11 @@ This paper investigates the research task of reconstructing the 3D clothed human
 </table>
 </center>
 
+
+
+
+
+
 ## Comparisions on Human Geometry
 
 <center>
@@ -493,6 +492,17 @@ This paper investigates the research task of reconstructing the 3D clothed human
 </center>
 
 ---
+
+
+# Examples of Human Avatar
+<center>
+<img src="asset/Ours/Ours_ori_custom_049.glb.gif" width="230px"><img src="asset/Ours/Ours_ori_custom_026.glb.gif" width="230px"><img src="asset/Ours/Ours_ori_thuman_003.glb.gif" width="230px"><img src="asset/Ours/Ours_ori_thuman_055.glb.gif" width="230px">
+
+
+<img src="asset/Ours/Ours_refined_custom_049.obj.gif" width="230px"><img src="asset/Ours/Ours_refined_custom_026.obj.gif" width="230px"><img src="asset/Ours/Ours_refined_thuman_003.obj.gif" width="230px"><img src="asset/Ours/Ours_refined_thuman_055.obj.gif" width="230px">
+</center>
+
+
 
 # Visualization for Ablation Study
 ## Visualizations on WLR Module

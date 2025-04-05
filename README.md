@@ -661,7 +661,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <img src="asset/texture/other_22_gif/ours.gif" alt="Input Image" width="250px">
     </td>
     <td align="center">
-      <img src="asset/Geo/53_gif/Ours_refined_thuman_053.obj.gif" alt="Ours" width="250px">
+      <img src="asset/texture/other_3_gif/ours.gif" alt="Ours" width="250px">
     </td>
     <td align="center">
       <img src="asset/texture/other_21_gif/ours.gif" alt="SiTH" width="250px">
@@ -677,13 +677,13 @@ This paper investigates the research task of reconstructing the 3D clothed human
 <table align="center">
   <tr align="center">
     <td align="center">
-      <img src="asset/texture/other_22_gif/ours.gif" alt="Input Image" width="250px">
+      <img src="asset/texture/other_8_gif/ours.gif" alt="Input Image" width="250px">
     </td>
     <td align="center">
       <img src="asset/texture/other_19_gif/ours.gif" alt="Ours" width="250px">
     </td>
     <td align="center">
-      <img src="asset/texture/other_21_gif/ours.gif" alt="SiTH" width="250px">
+      <img src="asset/texture/other_11_gif/ours.gif" alt="SiTH" width="250px">
     </td>
   </tr>
 </table>
@@ -699,7 +699,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <img src="asset/texture/other_17_gif/ours.gif" alt="Input Image" width="250px">
     </td>
     <td align="center">
-      <img src="asset/texture/other_19_gif/ours.gif" alt="Ours" width="250px">
+      <img src="asset/texture/other_14_gif/ours.gif" alt="Ours" width="250px">
     </td>
     <td align="center">
       <img src="asset/texture/other_16_gif/ours.gif" alt="SiTH" width="250px">

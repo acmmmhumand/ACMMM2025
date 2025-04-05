@@ -14,53 +14,59 @@ This paper investigates the research task of reconstructing the 3D clothed human
 
 # Texture Comparison with SOTA Methods
 <center>
-<table align="center">
-  <tr align="center">
-    <td align="center">
-      <img src="asset/ood_28/1060.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
-      <div><strong>Input Image</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/texture/other_1_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
-      <div><strong>Ours</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/texture/other_1_gif/pshuman.gif" alt="PSHuman" width="250px" style="max-width: 100%;">
-      <div><strong>PSHuman</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/texture/other_1_gif/SiTH.gif" alt="SiTH" width="250px" style="max-width: 100%;">
-      <div><strong>SiTH</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/texture/other_1_gif/ECON.gif" alt="ICON" width="250px" style="max-width: 100%;">
-      <div><strong>ICON</strong></div>
-    </td>
-    
-  </tr>
-  <tr align="center">
-    <td align="center">
-      <img src="asset/texture/other_1_gif/SiFU.gif" alt="SiFU" width="250px" style="max-width: 100%;">
-      <div><strong>Ours</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/texture/other_1_gif/GTA.gif" alt="GTA" width="250px" style="max-width: 100%;">
-      <div><strong>GTA</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/texture/other_1_gif/Human3diff.gif" alt="Human3diff" width="250px" style="max-width: 100%;">
-      <div><strong>Human3diff</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/texture/other_1_gif/PiFU.gif" alt="PiFu" width="250px" style="max-width: 100%;">
-      <div><strong>PiFu</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/texture/other_1_gif/ECON.gif" alt="ECON" width="250px" style="max-width: 100%;">
-      <div><strong>ECON</strong></div>
-    </td>
-
-  </tr>
+<table align="center" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr align="center">
+      <th>Input Image</th>
+      <th>Ours</th>
+      <th>PSHuman</th>
+      <th>SiTH</th>
+      <th>ICON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>
+        <img src="asset/ood_28/1060.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_1_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_1_gif/pshuman.gif" alt="PSHuman" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_1_gif/SiTH.gif" alt="SiTH" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_1_gif/ECON.gif" alt="ICON" width="250px" style="max-width: 100%;">
+      </td>
+    </tr>
+    <tr align="center">
+      <th>SiFU</th>
+      <th>GTA</th>
+      <th>Human3diff</th>
+      <th>PiFu</th>
+      <th>ECON</th>
+    </tr>
+    <tr align="center">
+      <td>
+        <img src="asset/texture/other_1_gif/SiFU.gif" alt="SiFU" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_1_gif/GTA.gif" alt="GTA" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_1_gif/Human3diff.gif" alt="Human3diff" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_1_gif/PiFU.gif" alt="PiFu" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_1_gif/ECON.gif" alt="ECON" width="250px" style="max-width: 100%;">
+      </td>
+    </tr>
+  </tbody>
 </table>
 </center>
 

@@ -20,7 +20,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <th>Input Image</th>
       <th>Ours</th>
       <th>PSHuman</th>
-      <th>SiTH</th>
+      <th>GTA</th>
       <th>ICON</th>
     </tr>
   </thead>
@@ -35,8 +35,9 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <td>
         <img src="asset/texture/other_1_gif/pshuman.gif" alt="PSHuman" width="250px" style="max-width: 100%;">
       </td>
+      
       <td>
-        <img src="asset/texture/other_1_gif/SiTH.gif" alt="SiTH" width="250px" style="max-width: 100%;">
+        <img src="asset/texture/other_1_gif/GTA.gif" alt="GTA" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/texture/other_1_gif/ECON.gif" alt="ICON" width="250px" style="max-width: 100%;">
@@ -44,7 +45,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
     </tr>
     <tr align="center">
       <th>SiFU</th>
-      <th>GTA</th>
+      <th>SiTH</th>
       <th>Human3diff</th>
       <th>PiFu</th>
       <th>ECON</th>
@@ -53,9 +54,12 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <td>
         <img src="asset/texture/other_1_gif/SiFU.gif" alt="SiFU" width="250px" style="max-width: 100%;">
       </td>
+
       <td>
-        <img src="asset/texture/other_1_gif/GTA.gif" alt="GTA" width="250px" style="max-width: 100%;">
+        <img src="asset/texture/other_1_gif/SiTH.gif" alt="SiTH" width="250px" style="max-width: 100%;">
       </td>
+
+
       <td>
         <img src="asset/texture/other_1_gif/Human3diff.gif" alt="Human3diff" width="250px" style="max-width: 100%;">
       </td>

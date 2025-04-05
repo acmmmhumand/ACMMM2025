@@ -648,12 +648,64 @@ This paper investigates the research task of reconstructing the 3D clothed human
 ---
 
 
-# More Examples of Human Avatar
+# More Examples
+
+
+
+
+
 <center>
-<img src="asset/texture/other_22_gif/ours.gif" width="230px"><img src="asset/texture/other_21_gif/ours.gif" width="230px"><img src="asset/texture/other_19_gif/ours.gif" width="230px"><img src="asset/texture/other_17_gif/ours.gif" width="230px">
+<table align="center">
+  <tr align="center">
+    <td align="center">
+      <img src="asset/texture/other_22_gif/ours.gif" alt="Input Image" width="250px">
+    </td>
+    <td align="center">
+      <img src="asset/Geo/53_gif/Ours_refined_thuman_053.obj.gif" alt="Ours" width="250px">
+    </td>
+    <td align="center">
+      <img src="asset/texture/other_21_gif/ours.gif" alt="SiTH" width="250px">
+    </td>
+  </tr>
+</table>
+</center>
+
+---
 
 
-<img src="asset/texture/other_16_gif/ours.gif" width="230px"><img src="asset/Ours/Ours_refined_custom_026.obj.gif" width="230px"><img src="asset/Ours/Ours_refined_thuman_003.obj.gif" width="230px"><img src="asset/Ours/Ours_refined_thuman_055.obj.gif" width="230px">
+<center>
+<table align="center">
+  <tr align="center">
+    <td align="center">
+      <img src="asset/texture/other_22_gif/ours.gif" alt="Input Image" width="250px">
+    </td>
+    <td align="center">
+      <img src="asset/texture/other_19_gif/ours.gif" alt="Ours" width="250px">
+    </td>
+    <td align="center">
+      <img src="asset/texture/other_21_gif/ours.gif" alt="SiTH" width="250px">
+    </td>
+  </tr>
+</table>
+</center>
+
+---
+
+
+<center>
+<table align="center">
+  <tr align="center">
+    <td align="center">
+      <img src="asset/texture/other_17_gif/ours.gif" alt="Input Image" width="250px">
+    </td>
+    <td align="center">
+      <img src="asset/texture/other_19_gif/ours.gif" alt="Ours" width="250px">
+    </td>
+    <td align="center">
+      <img src="asset/texture/other_16_gif/ours.gif" alt="SiTH" width="250px">
+    </td>
+  </tr>
+</table>
 </center>
 
 

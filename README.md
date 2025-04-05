@@ -25,16 +25,16 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <div><strong>Ours</strong></div>
     </td>
     <td align="center">
-      <img src="asset/texture/other_1_gif/pshuman.gif" alt="pshuman" width="250px" style="max-width: 100%;">
-      <div><strong>Ours</strong></div>
+      <img src="asset/texture/other_1_gif/pshuman.gif" alt="PSHuman" width="250px" style="max-width: 100%;">
+      <div><strong>PSHuman</strong></div>
     </td>
     <td align="center">
       <img src="asset/texture/other_1_gif/SiTH.gif" alt="SiTH" width="250px" style="max-width: 100%;">
-      <div><strong>Ours</strong></div>
+      <div><strong>SiTH</strong></div>
     </td>
     <td align="center">
       <img src="asset/texture/other_1_gif/ECON.gif" alt="ICON" width="250px" style="max-width: 100%;">
-      <div><strong>ECON</strong></div>
+      <div><strong>ICON</strong></div>
     </td>
     
   </tr>
@@ -52,8 +52,8 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <div><strong>Human3diff</strong></div>
     </td>
     <td align="center">
-      <img src="asset/texture/other_1_gif/PiFU.gif" alt="PiFU" width="250px" style="max-width: 100%;">
-      <div><strong>PiFU</strong></div>
+      <img src="asset/texture/other_1_gif/PiFU.gif" alt="PiFu" width="250px" style="max-width: 100%;">
+      <div><strong>PiFu</strong></div>
     </td>
     <td align="center">
       <img src="asset/texture/other_1_gif/ECON.gif" alt="ECON" width="250px" style="max-width: 100%;">

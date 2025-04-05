@@ -710,24 +710,6 @@ This paper investigates the research task of reconstructing the 3D clothed human
 
 
 
-# Visualization for Ablation Study
-## Visualizations on WLR Module
-<center>
-<img src="asset/Abl/refined_supp1.png" width="900px">
-</center>
-We provide further insights into the impact of the WLR module by comparing results before and after its implementation. The results clearly illustrate that the WLR module significantly enhances the geometric quality of the reconstructed mesh, particularly in capturing intricate details such as clothing wrinkles and facial features. The first row shows the normal map that has not been processed by the WLR module, while the second row shows the optimized normal map.
-
----
-
-## Visualizations on SLE Module
-<center>
-<img src="asset/Abl/SLE_supp.png" width="900px">
-</center>
-
-We presents additional results that highlight the effects of incorporating the Skeleton-Level Enhancement (SLE) module. The comparison reveals that the SLE module effectively aids in reconstructing the target human geometry, resulting in a reconstructed mesh that closely resembles the ground truth (GT) mesh. The first row illustrates our method without the SLE module, while the second row shows our methods incorporating this module. The last rows present the GT for reference.
-
----
-
 # Animatable 3D Avatars
 <center>
 <table align="center">

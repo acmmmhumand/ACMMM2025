@@ -35,7 +35,6 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <td>
         <img src="asset/texture/other_1_gif/pshuman.gif" alt="PSHuman" width="250px" style="max-width: 100%;">
       </td>
-      
       <td>
         <img src="asset/texture/other_1_gif/GTA.gif" alt="GTA" width="250px" style="max-width: 100%;">
       </td>
@@ -54,12 +53,9 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <td>
         <img src="asset/texture/other_1_gif/SiFU.gif" alt="SiFU" width="250px" style="max-width: 100%;">
       </td>
-
       <td>
         <img src="asset/texture/other_1_gif/SiTH.gif" alt="SiTH" width="250px" style="max-width: 100%;">
       </td>
-
-
       <td>
         <img src="asset/texture/other_1_gif/Human3diff.gif" alt="Human3diff" width="250px" style="max-width: 100%;">
       </td>

@@ -1,8 +1,8 @@
-# MultiGO: Towards Multi-Level Geometry Learning for Monocular 3D Textured Human Reconstruction
+# Ours: Towards Multi-Level Geometry Learning for Monocular 3D Textured Human Reconstruction
 <center>
 <img src="asset/2row_vis_1115.jpg" width="900px">
 
-The gallery of paper "MultiGO: Towards Multi-Level Geometry Learning for Monocular 3D Textured Human Reconstruction"
+The gallery of paper "Ours: Towards Multi-Level Geometry Learning for Monocular 3D Textured Human Reconstruction"
 </center>
 
 
@@ -12,44 +12,51 @@ This paper investigates the research task of reconstructing the 3D clothed human
 
 
 
-# Compared with SOTA Methods
-## Comparisons on Textured Human Avatars
+# Texture Comparison with SOTA Methods
 <center>
 <table align="center">
   <tr align="center">
     <td align="center">
-      <img src="asset/Compare/19_gif/0019.png" alt="Input Image" width="250px" style="max-width: 100%;">
+      <img src="asset/ood_28/1060.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
       <div><strong>Input Image</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/19_gif/Ours_ori_custom_019.glb.gif" alt="MultiGO" width="250px" style="max-width: 100%;">
-      <div><strong>MultiGO</strong></div>
+      <img src="asset/texture/other_1_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/19_gif/SiTH_custom_019.obj.gif" alt="SiTH" width="250px" style="max-width: 100%;">
-      <div><strong>SiTH</strong></div>
+      <img src="asset/texture/other_1_gif/pshuman.gif" alt="pshuman" width="250px" style="max-width: 100%;">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/19_gif/SiFU_custom_019.obj.gif" alt="SiFU" width="250px" style="max-width: 100%;">
-      <div><strong>SiFU</strong></div>
+      <img src="asset/texture/other_1_gif/SiTH.gif" alt="SiTH" width="250px" style="max-width: 100%;">
+      <div><strong>Ours</strong></div>
+    </td>
+    <td align="center">
+      <img src="asset/texture/other_1_gif/SiFU.gif" alt="SiFU" width="250px" style="max-width: 100%;">
+      <div><strong>Ours</strong></div>
     </td>
   </tr>
   <tr align="center">
     <td align="center">
-      <img src="asset/Compare/19_gif/ECON_custom_019.obj.gif" alt="ECON" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/other_1_gif/ECON.gif" alt="ICON" width="250px" style="max-width: 100%;">
       <div><strong>ECON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/19_gif/ICON_custom_019.obj.gif" alt="ICON" width="250px" style="max-width: 100%;">
-      <div><strong>ICON</strong></div>
+      <img src="asset/texture/other_1_gif/ECON.gif" alt="ECON" width="250px" style="max-width: 100%;">
+      <div><strong>ECON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/19_gif/GTA_custom_019.obj.gif" alt="GTA" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/other_1_gif/PiFU.gif" alt="PiFU" width="250px" style="max-width: 100%;">
+      <div><strong>PiFU</strong></div>
+    </td>
+    <td align="center">
+      <img src="asset/texture/other_1_gif/GTA.gif" alt="GTA" width="250px" style="max-width: 100%;">
       <div><strong>GTA</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/19_gif/PiFU_custom_039.obj.gif" alt="PiFU" width="250px" style="max-width: 100%;">
-      <div><strong>PiFU</strong></div>
+      <img src="asset/texture/other_1_gif/Human3diff.gif" alt="Human3diff" width="250px" style="max-width: 100%;">
+      <div><strong>Human3diff</strong></div>
     </td>
   </tr>
 </table>
@@ -62,37 +69,37 @@ This paper investigates the research task of reconstructing the 3D clothed human
 <table align="center">
   <tr align="center"> 
     <td align="center">
-      <img src="asset/Compare/21_gif/0021.png" alt="Input Image" width="250px">
+      <img src="asset/texture/21_gif/0021.png" alt="Input Image" width="250px">
       <div><strong>Input Image</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/21_gif/Ours_ori_custom_021.glb.gif" alt="MultiGO" width="250px">
-      <div><strong>MultiGO</strong></div>
+      <img src="asset/texture/21_gif/Ours_ori_custom_021.glb.gif" alt="Ours" width="250px">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/21_gif/SiTH_custom_021.obj.gif" alt="SiTH" width="250px">
+      <img src="asset/texture/21_gif/SiTH_custom_021.obj.gif" alt="SiTH" width="250px">
       <div><strong>SiTH</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/21_gif/SiFU_custom_021.obj.gif" alt="SiFU" width="250px">
+      <img src="asset/texture/21_gif/SiFU_custom_021.obj.gif" alt="SiFU" width="250px">
       <div><strong>SiFU</strong></div>
     </td>
   </tr>
   <tr align="center">
     <td align="center">
-      <img src="asset/Compare/21_gif/ECON_custom_021.obj.gif" alt="ECON" width="250px">
+      <img src="asset/texture/21_gif/ECON_custom_021.obj.gif" alt="ECON" width="250px">
       <div><strong>ECON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/21_gif/ICON_custom_021.obj.gif" alt="ICON" width="250px">
+      <img src="asset/texture/21_gif/ICON_custom_021.obj.gif" alt="ICON" width="250px">
       <div><strong>ICON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/21_gif/GTA_custom_021.obj.gif" alt="GTA" width="250px">
+      <img src="asset/texture/21_gif/GTA_custom_021.obj.gif" alt="GTA" width="250px">
       <div><strong>GTA</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/21_gif/PiFU_custom_043.obj.gif" alt="PiFU" width="250px">
+      <img src="asset/texture/21_gif/PiFU_custom_043.obj.gif" alt="PiFU" width="250px">
       <div><strong>PiFU</strong></div>
     </td>
   </tr>
@@ -105,37 +112,37 @@ This paper investigates the research task of reconstructing the 3D clothed human
 <table align="center">
   <tr align="center">
     <td align="center">
-      <img src="asset/Compare/24_gif/0024.png" alt="Input Image" width="250px">
+      <img src="asset/texture/24_gif/0024.png" alt="Input Image" width="250px">
       <div><strong>Input Image</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/24_gif/Ours_ori_custom_024.glb.gif" alt="MultiGO" width="250px">
-      <div><strong>MultiGO</strong></div>
+      <img src="asset/texture/24_gif/Ours_ori_custom_024.glb.gif" alt="Ours" width="250px">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/24_gif/SiTH_custom_024.obj.gif" alt="SiTH" width="250px">
+      <img src="asset/texture/24_gif/SiTH_custom_024.obj.gif" alt="SiTH" width="250px">
       <div><strong>SiTH</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/24_gif/SiFU_custom_024.obj.gif" alt="SiFU" width="250px">
+      <img src="asset/texture/24_gif/SiFU_custom_024.obj.gif" alt="SiFU" width="250px">
       <div><strong>SiFU</strong></div>
     </td>
   </tr>
   <tr align="center">
     <td align="center">
-      <img src="asset/Compare/24_gif/ECON_custom_024.obj.gif" alt="ECON" width="250px">
+      <img src="asset/texture/24_gif/ECON_custom_024.obj.gif" alt="ECON" width="250px">
       <div><strong>ECON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/24_gif/ICON_custom_024.obj.gif" alt="ICON" width="250px">
+      <img src="asset/texture/24_gif/ICON_custom_024.obj.gif" alt="ICON" width="250px">
       <div><strong>ICON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/24_gif/GTA_custom_024.obj.gif" alt="GTA" width="250px">
+      <img src="asset/texture/24_gif/GTA_custom_024.obj.gif" alt="GTA" width="250px">
       <div><strong>GTA</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/24_gif/PiFU_custom_049.obj.gif" alt="PiFU" width="250px">
+      <img src="asset/texture/24_gif/PiFU_custom_049.obj.gif" alt="PiFU" width="250px">
       <div><strong>PiFU</strong></div>
     </td>
   </tr>
@@ -148,37 +155,37 @@ This paper investigates the research task of reconstructing the 3D clothed human
 <table align="center">
   <tr align="center">
     <td align="center">
-      <img src="asset/Compare/2_gif/0002.png" alt="Input Image" width="250px">
+      <img src="asset/texture/2_gif/0002.png" alt="Input Image" width="250px">
       <div><strong>Input Image</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/2_gif/Ours_ori_thuman_002.glb.gif" alt="MultiGO" width="250px">
-      <div><strong>MultiGO</strong></div>
+      <img src="asset/texture/2_gif/Ours_ori_thuman_002.glb.gif" alt="Ours" width="250px">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/2_gif/SiTH_thuman_002.obj.gif" alt="SiTH" width="250px">
+      <img src="asset/texture/2_gif/SiTH_thuman_002.obj.gif" alt="SiTH" width="250px">
       <div><strong>SiTH</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/2_gif/SiFU_thuman_002.obj.gif" alt="SiFU" width="250px">
+      <img src="asset/texture/2_gif/SiFU_thuman_002.obj.gif" alt="SiFU" width="250px">
       <div><strong>SiFU</strong></div>
     </td>
   </tr>
   <tr align="center">
     <td align="center">
-      <img src="asset/Compare/2_gif/ECON_thuman_002.obj.gif" alt="ECON" width="250px">
+      <img src="asset/texture/2_gif/ECON_thuman_002.obj.gif" alt="ECON" width="250px">
       <div><strong>ECON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/2_gif/ICON_thuman_002.obj.gif" alt="ICON" width="250px">
+      <img src="asset/texture/2_gif/ICON_thuman_002.obj.gif" alt="ICON" width="250px">
       <div><strong>ICON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/2_gif/GTA_thuman_002.obj.gif" alt="GTA" width="250px">
+      <img src="asset/texture/2_gif/GTA_thuman_002.obj.gif" alt="GTA" width="250px">
       <div><strong>GTA</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/2_gif/PiFU_thuman_005.obj.gif" alt="PiFU" width="250px">
+      <img src="asset/texture/2_gif/PiFU_thuman_005.obj.gif" alt="PiFU" width="250px">
       <div><strong>PiFU</strong></div>
     </td>
   </tr>
@@ -191,37 +198,37 @@ This paper investigates the research task of reconstructing the 3D clothed human
 <table align="center">
   <tr align="center">
     <td align="center">
-      <img src="asset/Compare/43_gif/0043.png" alt="Input Image" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/43_gif/0043.png" alt="Input Image" width="250px" style="max-width: 100%;">
       <div><strong>Input Image</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/43_gif/Ours_ori_custom_043.glb.gif" alt="MultiGO" width="250px" style="max-width: 100%;">
-      <div><strong>MultiGO</strong></div>
+      <img src="asset/texture/43_gif/Ours_ori_custom_043.glb.gif" alt="Ours" width="250px" style="max-width: 100%;">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/43_gif/SiTH_custom_043.obj.gif" alt="SiTH" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/43_gif/SiTH_custom_043.obj.gif" alt="SiTH" width="250px" style="max-width: 100%;">
       <div><strong>SiTH</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/43_gif/SiFU_custom_043.obj.gif" alt="SiFU" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/43_gif/SiFU_custom_043.obj.gif" alt="SiFU" width="250px" style="max-width: 100%;">
       <div><strong>SiFU</strong></div>
     </td>
   </tr>
   <tr align="center">
     <td align="center">
-      <img src="asset/Compare/43_gif/ECON_custom_043.obj.gif" alt="ECON" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/43_gif/ECON_custom_043.obj.gif" alt="ECON" width="250px" style="max-width: 100%;">
       <div><strong>ECON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/43_gif/ICON_custom_043.obj.gif" alt="ICON" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/43_gif/ICON_custom_043.obj.gif" alt="ICON" width="250px" style="max-width: 100%;">
       <div><strong>ICON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/43_gif/GTA_custom_043.obj.gif" alt="GTA" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/43_gif/GTA_custom_043.obj.gif" alt="GTA" width="250px" style="max-width: 100%;">
       <div><strong>GTA</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/43_gif/PiFU_custom_087.obj.gif" alt="PiFU" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/43_gif/PiFU_custom_087.obj.gif" alt="PiFU" width="250px" style="max-width: 100%;">
       <div><strong>PiFU</strong></div>
     </td>
   </tr>
@@ -234,37 +241,37 @@ This paper investigates the research task of reconstructing the 3D clothed human
 <table align="center">
   <tr align="center">
     <td align="center">
-      <img src="asset/Compare/57_gif/0057.png" alt="Input Image" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/57_gif/0057.png" alt="Input Image" width="250px" style="max-width: 100%;">
       <div><strong>Input Image</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/57_gif/Ours_ori_custom_057.glb.gif" alt="MultiGO" width="250px" style="max-width: 100%;">
-      <div><strong>MultiGO</strong></div>
+      <img src="asset/texture/57_gif/Ours_ori_custom_057.glb.gif" alt="Ours" width="250px" style="max-width: 100%;">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/57_gif/SiTH_custom_057.obj.gif" alt="SiTH" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/57_gif/SiTH_custom_057.obj.gif" alt="SiTH" width="250px" style="max-width: 100%;">
       <div><strong>SiTH</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/57_gif/SiFU_custom_057.obj.gif" alt="SiFU" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/57_gif/SiFU_custom_057.obj.gif" alt="SiFU" width="250px" style="max-width: 100%;">
       <div><strong>SiFU</strong></div>
     </td>
   </tr>
   <tr align="center">
     <td align="center">
-      <img src="asset/Compare/57_gif/ECON_custom_057.obj.gif" alt="ECON" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/57_gif/ECON_custom_057.obj.gif" alt="ECON" width="250px" style="max-width: 100%;">
       <div><strong>ECON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/57_gif/ICON_custom_057.obj.gif" alt="ICON" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/57_gif/ICON_custom_057.obj.gif" alt="ICON" width="250px" style="max-width: 100%;">
       <div><strong>ICON</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/57_gif/GTA_custom_057.obj.gif" alt="GTA" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/57_gif/GTA_custom_057.obj.gif" alt="GTA" width="250px" style="max-width: 100%;">
       <div><strong>GTA</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Compare/57_gif/PiFU_custom_115.obj.gif" alt="PiFU" width="250px" style="max-width: 100%;">
+      <img src="asset/texture/57_gif/PiFU_custom_115.obj.gif" alt="PiFU" width="250px" style="max-width: 100%;">
       <div><strong>PiFU</strong></div>
     </td>
   </tr>
@@ -286,8 +293,8 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <div><strong>Input Image</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Geo/20_gif/Ours_refined_thuman_020.obj.gif" alt="MultiGO" width="250px">
-      <div><strong>MultiGO</strong></div>
+      <img src="asset/Geo/20_gif/Ours_refined_thuman_020.obj.gif" alt="Ours" width="250px">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
       <img src="asset/Geo/20_gif/HILO_thuman_020.obj.gif" alt="SiTH" width="250px">
@@ -329,8 +336,8 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <div><strong>Input Image</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Geo/22_gif/Ours_refined_thuman_022.obj.gif" alt="MultiGO" width="250px">
-      <div><strong>MultiGO</strong></div>
+      <img src="asset/Geo/22_gif/Ours_refined_thuman_022.obj.gif" alt="Ours" width="250px">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
       <img src="asset/Geo/22_gif/HILO_thuman_022.obj.gif" alt="SiTH" width="250px">
@@ -372,8 +379,8 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <div><strong>Input Image</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Geo/39_gif/Ours_refined_thuman_039.obj.gif" alt="MultiGO" width="250px">
-      <div><strong>MultiGO</strong></div>
+      <img src="asset/Geo/39_gif/Ours_refined_thuman_039.obj.gif" alt="Ours" width="250px">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
       <img src="asset/Geo/39_gif/HILO_thuman_039.obj.gif" alt="SiTH" width="250px">
@@ -415,8 +422,8 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <div><strong>Input Image</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Geo/44_gif/Ours_refined_thuman_044.obj.gif" alt="MultiGO" width="250px">
-      <div><strong>MultiGO</strong></div>
+      <img src="asset/Geo/44_gif/Ours_refined_thuman_044.obj.gif" alt="Ours" width="250px">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
       <img src="asset/Geo/44_gif/HILO_thuman_044.obj.gif" alt="SiTH" width="250px">
@@ -458,8 +465,8 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <div><strong>Input Image</strong></div>
     </td>
     <td align="center">
-      <img src="asset/Geo/53_gif/Ours_refined_thuman_053.obj.gif" alt="MultiGO" width="250px">
-      <div><strong>MultiGO</strong></div>
+      <img src="asset/Geo/53_gif/Ours_refined_thuman_053.obj.gif" alt="Ours" width="250px">
+      <div><strong>Ours</strong></div>
     </td>
     <td align="center">
       <img src="asset/Geo/53_gif/HILO_thuman_053.obj.gif" alt="SiTH" width="250px">
@@ -556,8 +563,8 @@ We presents additional results that highlight the effects of incorporating the S
 </table>
 </center>
 
-# How MultiGO Works
+# How Ours Works
 <center>
 <img src="asset/Overview_1115.png" width="900px">
 </center>
-Our method, MultiGO, addresses monocular textured 3D human reconstruction by introducing a multi-level geometry learning framework that significantly enhances reconstruction quality. To accurately capture the human body's posture, we propose the SLE module, which projects 3D Fourier features into the 2D space of the input image, allowing the Gaussian reconstruction model to fully utilize prior human shape knowledge. For improved depth estimation of human joints, the JLA strategy applies controlled perturbations during training, increasing the model's robustness to depth inaccuracies during inference. To refine geometric details like body wrinkles, the WLR module resembles the final de-noising steps in diffusion theory, treating coarse meshes as Gaussian noise and using the high-quality texture of reconstructed Gaussian as conditions to refine wrinkles.
+Our method, Ours, addresses monocular textured 3D human reconstruction by introducing a multi-level geometry learning framework that significantly enhances reconstruction quality. To accurately capture the human body's posture, we propose the SLE module, which projects 3D Fourier features into the 2D space of the input image, allowing the Gaussian reconstruction model to fully utilize prior human shape knowledge. For improved depth estimation of human joints, the JLA strategy applies controlled perturbations during training, increasing the model's robustness to depth inaccuracies during inference. To refine geometric details like body wrinkles, the WLR module resembles the final de-noising steps in diffusion theory, treating coarse meshes as Gaussian noise and using the high-quality texture of reconstructed Gaussian as conditions to refine wrinkles.

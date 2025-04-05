@@ -709,6 +709,26 @@ This paper investigates the research task of reconstructing the 3D clothed human
 </center>
 
 
+---
+
+
+<center>
+<table align="center">
+  <tr align="center">
+    <td align="center">
+      <img src="asset/texture/other_6_gif/ours.gif" alt="Input Image" width="250px">
+    </td>
+    <td align="center">
+      <img src="asset/texture/other_5_gif/ours.gif" alt="Ours" width="250px">
+    </td>
+    <td align="center">
+      <img src="asset/texture/other_1_gif/ours.gif" alt="SiTH" width="250px">
+    </td>
+  </tr>
+</table>
+</center>
+
+
 
 # Animatable 3D Avatars
 <center>

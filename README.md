@@ -30,7 +30,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/1060.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
+        <img src="asset/ood_28/1095.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/texture/other_2_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
@@ -90,7 +90,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/1060.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
+        <img src="asset/ood_28/1616.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/texture/other_9_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
@@ -150,7 +150,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/1060.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
+        <img src="asset/ood_28/1703.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/texture/other_10_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
@@ -209,7 +209,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/1060.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
+        <img src="asset/ood_28/1793.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/texture/other_12_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
@@ -269,7 +269,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/1060.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
+        <img src="asset/ood_28/541.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/texture/other_13_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
@@ -327,7 +327,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/1060.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
+        <img src="asset/ood_28/cropped_istockphoto-1169130132-612x612.png" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/texture/other_18_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
@@ -386,7 +386,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/1060.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
+        <img src="asset/ood_28/cropped_istockphoto-1253466968-612x612.png" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/texture/other_20_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">

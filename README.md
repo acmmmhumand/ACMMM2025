@@ -429,224 +429,74 @@ This paper investigates the research task of reconstructing the 3D clothed human
   </tbody>
 </table>
 
-
-
-## Comparisions on Human Geometry
-
-<center>
-<table align="center">
-  <tr align="center">
-    <td align="center">
-      <img src="asset/Geo/20_gif/0020.png" alt="Input Image" width="250px">
-      <div><strong>Input Image</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/20_gif/Ours_refined_thuman_020.obj.gif" alt="Ours" width="250px">
-      <div><strong>Ours</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/20_gif/HILO_thuman_020.obj.gif" alt="SiTH" width="250px">
-      <div><strong>HiLo</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/20_gif/VS_thuman_020.obj.gif" alt="SiFU" width="250px">
-      <div><strong>VS</strong></div>
-    </td>
-  </tr>
-  <tr align="center">
-    <td align="center">
-      <img src="asset/Geo/20_gif/SiTH_thuman_020.obj.gif" alt="ECON" width="250px">
-      <div><strong>SiTH</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/20_gif/SiFU_thuman_020.obj.gif" alt="ICON" width="250px">
-      <div><strong>SiFU</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/20_gif/ICON_thuman_020.obj.gif" alt="GTA" width="250px">
-      <div><strong>ICON</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/20_gif/GTA_thuman_020.obj.gif" alt="PiFU" width="250px">
-      <div><strong>GTA</strong></div>
-    </td>
-  </tr>
-</table>
-</center>
-
 ---
 
 <center>
-<table align="center">
-  <tr align="center">
-    <td align="center">
-      <img src="asset/Geo/22_gif/0022.png" alt="Input Image" width="250px">
-      <div><strong>Input Image</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/22_gif/Ours_refined_thuman_022.obj.gif" alt="Ours" width="250px">
-      <div><strong>Ours</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/22_gif/HILO_thuman_022.obj.gif" alt="SiTH" width="250px">
-      <div><strong>HiLo</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/22_gif/VS_thuman_022.obj.gif" alt="SiFU" width="250px">
-      <div><strong>VS</strong></div>
-    </td>
-  </tr>
-  <tr align="center">
-    <td align="center">
-      <img src="asset/Geo/22_gif/SiTH_thuman_022.obj.gif" alt="ECON" width="250px">
-      <div><strong>SiTH</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/22_gif/SiFU_thuman_022.obj.gif" alt="ICON" width="250px">
-      <div><strong>SiFU</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/22_gif/ICON_thuman_022.obj.gif" alt="GTA" width="250px">
-      <div><strong>ICON</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/22_gif/GTA_thuman_022.obj.gif" alt="PiFU" width="250px">
-      <div><strong>GTA</strong></div>
-    </td>
-  </tr>
+<table align="center" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr align="center">
+      <th>Input Image</th>
+      <th>Ours</th>
+      <th>PSHuman</th>
+      <th>SiTH</th>
+      <th>GTA</th>
+      <th>ICON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>
+        <img src="asset/ood_28/cropped_istockphoto-1253466968-612x612.png" alt="Input Image" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/geometry/custom_16_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/geometry/custom_16_gif/pshuman.gif" alt="PSHuman" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/geometry/custom_16_gif/SiTH.gif" alt="SiTH" width="250px" style="max-width: 100%;">
+      </td>
+
+      <td>
+        <img src="asset/geometry/custom_16_gif/GTA.gif" alt="GTA" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/geometry/custom_16_gif/ECON.gif" alt="ICON" width="250px" style="max-width: 100%;">
+      </td>
+    </tr>
+    <tr align="center">
+      <th>SiFU</th>
+      <th>VS</th>
+      <th>HiLo</th>
+      <th>Human3diff</th>
+      <th>PiFu</th>
+      <th>ECON</th>
+    </tr>
+    <tr align="center">
+      <td>
+        <img src="asset/geometry/custom_16_gif/SiFU.gif" alt="SiFU" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/geometry/custom_16_gif/VS.gif" alt="PSHuman" width="250px" style="max-width: 100%;">
+      </td>
+        <td>
+        <img src="asset/geometry/custom_16_gif/HiLo.gif" alt="SiTH" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/geometry/custom_16_gif/Human3diff.gif" alt="Human3diff" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/geometry/custom_16_gif/PiFU.gif" alt="PiFu" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/geometry/custom_16_gif/ECON.gif" alt="ECON" width="250px" style="max-width: 100%;">
+      </td>
+    </tr>
+  </tbody>
 </table>
-</center>
 
----
 
-<center>
-<table align="center">
-  <tr align="center">
-    <td align="center">
-      <img src="asset/Geo/39_gif/0039.png" alt="Input Image" width="250px">
-      <div><strong>Input Image</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/39_gif/Ours_refined_thuman_039.obj.gif" alt="Ours" width="250px">
-      <div><strong>Ours</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/39_gif/HILO_thuman_039.obj.gif" alt="SiTH" width="250px">
-      <div><strong>HiLo</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/39_gif/VS_thuman_039.obj.gif" alt="SiFU" width="250px">
-      <div><strong>VS</strong></div>
-    </td>
-  </tr>
-  <tr align="center">
-    <td align="center">
-      <img src="asset/Geo/39_gif/SiTH_thuman_039.obj.gif" alt="ECON" width="250px">
-      <div><strong>SiTH</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/39_gif/SiFU_thuman_039.obj.gif" alt="ICON" width="250px">
-      <div><strong>SiFU</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/39_gif/ICON_thuman_039.obj.gif" alt="GTA" width="250px">
-      <div><strong>ICON</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/39_gif/GTA_thuman_039.obj.gif" alt="PiFU" width="250px">
-      <div><strong>GTA</strong></div>
-    </td>
-  </tr>
-</table>
-</center>
-
----
-
-<center>
-<table align="center">
-  <tr align="center">
-    <td align="center">
-      <img src="asset/Geo/44_gif/0044.png" alt="Input Image" width="250px">
-      <div><strong>Input Image</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/44_gif/Ours_refined_thuman_044.obj.gif" alt="Ours" width="250px">
-      <div><strong>Ours</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/44_gif/HILO_thuman_044.obj.gif" alt="SiTH" width="250px">
-      <div><strong>HiLo</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/44_gif/VS_thuman_044.obj.gif" alt="SiFU" width="250px">
-      <div><strong>VS</strong></div>
-    </td>
-  </tr>
-  <tr align="center">
-    <td align="center">
-      <img src="asset/Geo/44_gif/SiTH_thuman_044.obj.gif" alt="ECON" width="250px">
-      <div><strong>SiTH</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/44_gif/SiFU_thuman_044.obj.gif" alt="ICON" width="250px">
-      <div><strong>SiFU</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/44_gif/ICON_thuman_044.obj.gif" alt="GTA" width="250px">
-      <div><strong>ICON</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/44_gif/GTA_thuman_044.obj.gif" alt="PiFU" width="250px">
-      <div><strong>GTA</strong></div>
-    </td>
-  </tr>
-</table>
-</center>
-
----
-
-<center>
-<table align="center">
-  <tr align="center">
-    <td align="center">
-      <img src="asset/Geo/53_gif/0053.png" alt="Input Image" width="250px">
-      <div><strong>Input Image</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/53_gif/Ours_refined_thuman_053.obj.gif" alt="Ours" width="250px">
-      <div><strong>Ours</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/53_gif/HILO_thuman_053.obj.gif" alt="SiTH" width="250px">
-      <div><strong>HiLo</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/53_gif/VS_thuman_053.obj.gif" alt="SiFU" width="250px">
-      <div><strong>VS</strong></div>
-    </td>
-  </tr>
-  <tr align="center">
-    <td align="center">
-      <img src="asset/Geo/53_gif/SiTH_thuman_053.obj.gif" alt="ECON" width="250px">
-      <div><strong>SiTH</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/53_gif/SiFU_thuman_053.obj.gif" alt="ICON" width="250px">
-      <div><strong>SiFU</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/53_gif/ICON_thuman_053.obj.gif" alt="GTA" width="250px">
-      <div><strong>ICON</strong></div>
-    </td>
-    <td align="center">
-      <img src="asset/Geo/53_gif/GTA_thuman_053.obj.gif" alt="PiFU" width="250px">
-      <div><strong>GTA</strong></div>
-    </td>
-  </tr>
-</table>
-</center>
-
----
 
 
 # More Examples

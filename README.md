@@ -448,7 +448,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/cropped_istockphoto-1253466968-612x612.png" alt="Input Image" width="250px" style="max-width: 100%;">
+        <img src="asset/geo_inp_crop/ood_input_images_0_9.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/geometry/thuman_10_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
@@ -515,7 +515,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/cropped_istockphoto-1253466968-612x612.png" alt="Input Image" width="250px" style="max-width: 100%;">
+        <img src="asset/geo_inp_crop/ood_input_images_0_19.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/geometry/thuman_20_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
@@ -582,7 +582,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/cropped_istockphoto-1253466968-612x612.png" alt="Input Image" width="250px" style="max-width: 100%;">
+        <img src="asset/geo_inp_crop/ood_input_images_0_49.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/geometry/custom_50_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
@@ -648,7 +648,7 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/cropped_istockphoto-1253466968-612x612.png" alt="Input Image" width="250px" style="max-width: 100%;">
+        <img src="asset/geo_inp_crop/ood_input_images_0_15.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
         <img src="asset/geometry/custom_16_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">

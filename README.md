@@ -457,7 +457,6 @@ This paper investigates the research task of reconstructing the 3D clothed human
       <td>
         <img src="asset/geometry/custom_16_gif/SiTH.gif" alt="SiTH" width="250px" style="max-width: 100%;">
       </td>
-
       <td>
         <img src="asset/geometry/custom_16_gif/GTA.gif" alt="GTA" width="250px" style="max-width: 100%;">
       </td>

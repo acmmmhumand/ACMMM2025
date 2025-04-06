@@ -90,66 +90,6 @@ This paper investigates the research task of reconstructing the 3D clothed human
   <tbody>
     <tr align="center">
       <td>
-        <img src="asset/ood_28/1616.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
-      </td>
-      <td>
-        <img src="asset/texture/other_9_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
-      </td>
-      <td>
-        <img src="asset/texture/other_9_gif/pshuman.gif" alt="PSHuman" width="250px" style="max-width: 100%;">
-      </td>
-      <td>
-        <img src="asset/texture/other_9_gif/GTA.gif" alt="GTA" width="250px" style="max-width: 100%;">
-      </td>
-      <td>
-        <img src="asset/texture/other_9_gif/ECON.gif" alt="ICON" width="250px" style="max-width: 100%;">
-      </td>
-    </tr>
-    <tr align="center">
-      <th>SiFU</th>
-      <th>SiTH</th>
-      <th>Human3diff</th>
-      <th>PiFu</th>
-      <th>ECON</th>
-    </tr>
-    <tr align="center">
-      <td>
-        <img src="asset/texture/other_9_gif/SiFU.gif" alt="SiFU" width="250px" style="max-width: 100%;">
-      </td>
-      <td>
-        <img src="asset/texture/other_9_gif/SiTH.gif" alt="SiTH" width="250px" style="max-width: 100%;">
-      </td>
-      <td>
-        <img src="asset/texture/other_9_gif/Human3diff.gif" alt="Human3diff" width="250px" style="max-width: 100%;">
-      </td>
-      <td>
-        <img src="asset/texture/other_9_gif/PiFU.gif" alt="PiFu" width="250px" style="max-width: 100%;">
-      </td>
-      <td>
-        <img src="asset/texture/other_9_gif/ECON.gif" alt="ECON" width="250px" style="max-width: 100%;">
-      </td>
-    </tr>
-  </tbody>
-</table>
-</center>
-
-
----
-
-<center>
-<table align="center" style="border-collapse: collapse; width: 100%;">
-  <thead>
-    <tr align="center">
-      <th>Input Image</th>
-      <th>Ours</th>
-      <th>PSHuman</th>
-      <th>GTA</th>
-      <th>ICON</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr align="center">
-      <td>
         <img src="asset/ood_28/1703.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
       </td>
       <td>
@@ -310,6 +250,67 @@ This paper investigates the research task of reconstructing the 3D clothed human
     </tr>
   </tbody>
 </table>
+
+
+
+---
+
+<center>
+<table align="center" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr align="center">
+      <th>Input Image</th>
+      <th>Ours</th>
+      <th>PSHuman</th>
+      <th>GTA</th>
+      <th>ICON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>
+        <img src="asset/ood_28/1616.jpg" alt="Input Image" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_9_gif/ours.gif" alt="Ours" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_9_gif/pshuman.gif" alt="PSHuman" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_9_gif/GTA.gif" alt="GTA" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_9_gif/ECON.gif" alt="ICON" width="250px" style="max-width: 100%;">
+      </td>
+    </tr>
+    <tr align="center">
+      <th>SiFU</th>
+      <th>SiTH</th>
+      <th>Human3diff</th>
+      <th>PiFu</th>
+      <th>ECON</th>
+    </tr>
+    <tr align="center">
+      <td>
+        <img src="asset/texture/other_9_gif/SiFU.gif" alt="SiFU" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_9_gif/SiTH.gif" alt="SiTH" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_9_gif/Human3diff.gif" alt="Human3diff" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_9_gif/PiFU.gif" alt="PiFu" width="250px" style="max-width: 100%;">
+      </td>
+      <td>
+        <img src="asset/texture/other_9_gif/ECON.gif" alt="ECON" width="250px" style="max-width: 100%;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+</center>
 
 ---
 

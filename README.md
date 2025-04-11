@@ -810,7 +810,7 @@ Augmentation module. By building a once-feed-forward animation network, we augme
 ---
 
 
-# How Ours Works
+# Method Overview
 <center>
 <img src="asset/Overview_1115.png" width="900px">
 </center>

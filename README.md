@@ -783,7 +783,7 @@ Augmentation module. By building a once-feed-forward animation network, we augme
 
 
 
-# Animatable 3D Avatars
+# Animation
 <center>
 <table align="center">
   <tr align="center">

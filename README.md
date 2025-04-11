@@ -1,9 +1,4 @@
 # SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction
-<center>
-<img src="asset/2row_vis_1115.jpg" width="900px">
-
-The gallery of paper "SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction"
-</center>
 
 
 # Abstract
@@ -789,7 +784,7 @@ Augmentation module. By building a once-feed-forward animation network, we augme
 <table align="center">
   <tr align="center">
     <td align="center">
-      <img src="asset/geometry/thuman_20_gif/SiFU.gif" alt="Input Image" width="250px">
+      <img src="asset/video_gif/0451_00073_03_00121_8views.gif" alt="Input Image" width="250px">
     </td>
     <td align="center">
       <img src="asset/video_gif/0558_00080_01_00161_8views.gif" alt="Ours" width="250px">

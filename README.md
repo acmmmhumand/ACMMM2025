@@ -2,13 +2,14 @@
 <center>
 <img src="asset/2row_vis_1115.jpg" width="900px">
 
-The gallery of paper "Ours: Towards Multi-Level Geometry Learning for Monocular 3D Textured Human Reconstruction"
+The gallery of paper "SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction"
 </center>
 
 
 # Abstract
 
-This paper investigates the research task of reconstructing the 3D clothed human body from a monocular image. Due to the inherent ambiguity of single-view input, existing approaches leverage pre-trained SMPL(-X) estimation models or generative models to provide auxiliary information for human reconstruction. However, these methods capture only the general human body geometry and overlook specific geometric details, leading to inaccurate skeleton reconstruction, incorrect joint positions, and unclear cloth wrinkles. In response to these issues, we propose a multi-level geometry learning framework. Technically, we design three key components: skeleton-level enhancement, joint-level augmentation, and wrinkle-level refinement modules. Specifically, we effectively integrate the projected 3D Fourier features into a Gaussian reconstruction model, introduce perturbations to improve joint depth estimation during training, and refine the human coarse wrinkles by resembling the de-noising process of diffusion model. Extensive quantitative and qualitative experiments on two out-of-distribution test sets show the superior performance of our approach compared to state-of-the-art (SOTA) methods. 
+Monocular texture 3D human reconstruction aims to reconstruct the full 3D digital avatar from only one front-view human RGB image. However, the geometry ambiguity of the single 2D image and the scarcity of 3D human training data become the main factors limiting the development of this field. To solve these issues, current methods employed prior geometric estimation networks to obtain varied human geometric forms, like SMPL model, normal, and depth, but struggled to integrate these modalities effectively, leading to view-inconsistencies such as facial distortions. To this end, we propose a two-process 3D human reconstruction framework, SAT, which seamlessly learns various prior geometries in a united manner and reconstructs high-quality texture 3D avatars as the final. To further facilitate the geometry learning, we propose a Supervisor Feature Regularization module. By introducing a same-structure multi-view input network to offer the middle-layer features as training supervision, these varied geometric priors can be better fused. To tackle the data scarcity and further improve the reconstruction quality, we also propose an Online Animation
+Augmentation module. By building a once-feed-forward animation network, we augment a massive amount of samples from the original 3D human data online for model training. Extensive quantitative and qualitative experiments on two benchmarks show the superiority of our approach compared to SOTA methods.
 
 
 
@@ -787,37 +788,27 @@ This paper investigates the research task of reconstructing the 3D clothed human
 <table align="center">
   <tr align="center">
     <td align="center">
-      <img src="asset/animation/3.gif" alt="1" width="250px">
+      <img src="asset/video_gif/0451_00073_03_00121_8views.gif" alt="Input Image" width="250px">
     </td>
     <td align="center">
-      <img src="asset/animation/8.gif" alt="2" width="250px">
+      <img src="asset/video_gif/0558_00080_01_00161_8views.gif" alt="Ours" width="250px">
     </td>
     <td align="center">
-      <img src="asset/animation/7.gif" alt="3" width="250px">
+      <img src="asset/video_gif/0210_00048_06_00041_8views.gif" alt="SiTH" width="250px">
     </td>
     <td align="center">
-      <img src="asset/animation/4.gif" alt="4" width="250px">
-    </td>
-  </tr>
-  <tr align="center">
-    <td align="center">
-      <img src="asset/animation/5.gif" alt="5" width="250px">
+      <img src="asset/video_gif/0129_00032_06_00041_8views.gif" alt="Ours" width="250px">
     </td>
     <td align="center">
-      <img src="asset/animation/6.gif" alt="6" width="250px">
-    </td>
-    <td align="center">
-      <img src="asset/animation/1.gif" alt="7" width="250px">
-    </td>
-    <td align="center">
-      <img src="asset/animation/2.gif" alt="8" width="250px">
+      <img src="asset/video_gif/0113_00029_05_00041_8views.gif" alt="SiTH" width="250px">
     </td>
   </tr>
 </table>
 </center>
 
+
 # How Ours Works
 <center>
 <img src="asset/Overview_1115.png" width="900px">
 </center>
-Our method, Ours, addresses monocular textured 3D human reconstruction by introducing a multi-level geometry learning framework that significantly enhances reconstruction quality. To accurately capture the human body's posture, we propose the SLE module, which projects 3D Fourier features into the 2D space of the input image, allowing the Gaussian reconstruction model to fully utilize prior human shape knowledge. For improved depth estimation of human joints, the JLA strategy applies controlled perturbations during training, increasing the model's robustness to depth inaccuracies during inference. To refine geometric details like body wrinkles, the WLR module resembles the final de-noising steps in diffusion theory, treating coarse meshes as Gaussian noise and using the high-quality texture of reconstructed Gaussian as conditions to refine wrinkles.
+We introduce a novel framework, SAT, for the task of monocular texture 3D human reconstruction, which comprises two key processes: United Geometry Learning (UGL) and Cascading Gaussian Texturing (CGT). Central to these processes are two innovative modules: Supervised Feature Regularization (SFR) and Online Animation Augmentation (OAA). In the UGL process, we extract different-modality geometric features from the input image using various prior models and integrate them into a united geometric learning network for reconstructing 3D human normal Gaussians. To enhance this process, the SFR module is employed. It involves training a multi-view supervisor model that generates multi-level supervisor feature maps, which serve as a regularizing force for monocular geometry learning. The CGT process aims to align with the output distribution of the UGL process while preventing cascading errors. It utilizes the 3D geometry human Gaussian derived from UGL, alongside the input image, to reconstruct the 3D texture Gaussian. To further boost reconstruction quality and address the limited availability of human 3D data, we introduce the OAA module. This module trains an animation model that dynamically generates more pose-varied 3D human samples, augmenting the existing dataset for enhanced model training.

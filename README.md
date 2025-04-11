@@ -789,7 +789,7 @@ Augmentation module. By building a once-feed-forward animation network, we augme
 <table align="center">
   <tr align="center">
     <td align="center">
-      <img src="asset/video_gif/0451_00073_03_00121_8views.gif" alt="Input Image" width="250px">
+      <img src="asset/geometry/thuman_20_gif/SiFU.gif" alt="Input Image" width="250px">
     </td>
     <td align="center">
       <img src="asset/video_gif/0558_00080_01_00161_8views.gif" alt="Ours" width="250px">

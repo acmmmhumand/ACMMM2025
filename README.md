@@ -781,6 +781,7 @@ Augmentation module. By building a once-feed-forward animation network, we augme
 </table>
 </center>
 
+---
 
 
 # Animation
@@ -805,6 +806,8 @@ Augmentation module. By building a once-feed-forward animation network, we augme
   </tr>
 </table>
 </center>
+
+---
 
 
 # How Ours Works

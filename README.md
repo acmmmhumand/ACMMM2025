@@ -1,16 +1,14 @@
 # SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction
 
+---
 
 # Abstract
 
-Monocular texture 3D human reconstruction aims to reconstruct the full 3D digital avatar from only one front-view human RGB image. However, the geometry ambiguity of the single 2D image and the scarcity of 3D human training data become the main factors limiting the development of this field. To solve these issues, current methods employed prior geometric estimation networks to obtain varied human geometric forms, like SMPL model, normal, and depth, but struggled to integrate these modalities effectively, leading to view-inconsistencies such as facial distortions. To this end, we propose a two-process 3D human reconstruction framework, SAT, which seamlessly learns various prior geometries in a united manner and reconstructs high-quality texture 3D avatars as the final. To further facilitate the geometry learning, we propose a Supervisor Feature Regularization module. By introducing a same-structure multi-view input network to offer the middle-layer features as training supervision, these varied geometric priors can be better fused. To tackle the data scarcity and further improve the reconstruction quality, we also propose an Online Animation
-Augmentation module. By building a once-feed-forward animation network, we augment a massive amount of samples from the original 3D human data online for model training. Extensive quantitative and qualitative experiments on two benchmarks show the superiority of our approach compared to SOTA methods.
-
-
-
-# Comparison with SOTA Methods
+Monocular texture 3D human reconstruction aims to create a complete 3D digital avatar from just a single front-view human RGB image. However, the geometric ambiguity inherent in a single 2D image and the scarcity of 3D human training data are the main obstacles limiting progress in this field. To address these issues, current methods employ prior geometric estimation networks to derive various human geometric forms, such as the SMPL model and normal maps. However, they struggle to integrate these modalities effectively, leading to view inconsistencies, such as facial distortions. To this end, we propose a two-process 3D human reconstruction framework, SAT, which seamlessly learns various prior geometries in a unified manner and reconstructs high-quality textured 3D avatars as the final output. To further facilitate geometry learning, we introduce a Supervisor Feature Regularization module. By employing a multi-view network with the same structure to provide intermediate features as training supervision, these varied geometric priors can be better fused. To tackle data scarcity and further improve reconstruction quality, we also propose an Online Animation Augmentation module. By building a one-feed-forward animation network, we augment a massive number of samples from the original 3D human data online for model training. Extensive quantitative and qualitative experiments on two benchmarks show the superiority of our approach compared to state-of-the-art methods.
 
 ---
+
+# Comparison with SOTA Methods
 
 <center>
 <table align="center" style="border-collapse: collapse; width: 100%;">
